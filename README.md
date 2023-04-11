@@ -7,7 +7,7 @@
 Bikeshare Data
 
 ### Description
-Bikeshare Data is an interactive program that lets its users explore the bikeshare data of three major US cities: New York City, Washington and Chicago. 
+Bikeshare Data is an interactive program that lets its users explore the data of three major US cities (New York City, Washington and Chicago) with regards to the bikeshare system in each of the locations.
 
 ### Files used
 The files used are linked below:
