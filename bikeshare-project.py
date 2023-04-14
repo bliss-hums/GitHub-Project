@@ -45,7 +45,7 @@ def get_filters():
             #break
     months = ['all', 'january', 'february', 'march', 'april', 'may', 'june']       
     while True:
-      month = input('Choose a month(January, February, ... , June) or all: ').lower().strip()
+      month = input('Choose one month(January to June) or all: ').lower().strip()
       if month not in months:
           print('Try again!')
           continue
@@ -63,7 +63,7 @@ def get_filters():
             #break
     days = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']      
     while True:
-        day = input("Choose a day(Monday, ... , Sunday) or all: ").lower().strip()
+        day = input("Choose one day(Monday through Sunday) or all: ").lower().strip()
         #days = ['all', 'monday', 'tuesday', 'wednesday', 'thrusday', 'friday', 'saturday', 'sunday']
         if day not in days:
             print('Try again!')
