@@ -45,7 +45,7 @@ def get_filters():
             #break
     months = ['all', 'january', 'february', 'march', 'april', 'may', 'june']       
     while True:
-      month = input('Choose a month(January, February, ... , June) or all: ').lower().strip()
+      month = input('Choose one month(January to June) or all: ').lower().strip()
       if month not in months:
           print('Try again!')
           continue
