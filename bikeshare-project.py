@@ -63,7 +63,7 @@ def get_filters():
             #break
     days = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']      
     while True:
-        day = input("Choose a day(Monday, ... , Sunday) or all: ").lower().strip()
+        day = input("Choose one day(Monday through Sunday) or all: ").lower().strip()
         #days = ['all', 'monday', 'tuesday', 'wednesday', 'thrusday', 'friday', 'saturday', 'sunday']
         if day not in days:
             print('Try again!')
